@@ -1,6 +1,6 @@
 上传远程仓库流程：
 1.git add .(上传所有bash所在目录下所有文件)：添加项目文件
-2.gitmmit -m "命名“：将项目文件提交到本地仓库
+2.git commit -m "命名“：将项目文件提交到本地仓库
 3.git remote add 仓库别名（origin） 仓库地址（https/ssh：选用ssh需要先配置密钥）：本地仓库连接远程仓库
 4.git push -u origin（仓库别名） master(分支名)：将本地仓库的内存push到远程仓库
 
